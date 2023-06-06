@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body
+{
+  width: 100%;
+  height: 100%;
+  background-color: #dee5f1;
+}
+
+  #main
+{
+  width: 60%;
+  height: 70vh;
+  display: flex;
+  margin-left: 22%;
+  top: 10%;
+  position: relative;
+  
+}
+#left
+{
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
+  animation-name: left;
+  animation-duration: 2s;
+}
+#left #nav
+{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  
+}
+#left #nav h4
+{
+  color: rgb(11, 11, 245);
+}
+#left h5
+{
+  text-align: center;
+  color: #000;
+  opacity: .5;
+  font-size: 15px;
+  font-weight: 600;
+  top: 20%;
+  position: relative;
+}
+
+#left h1
+{
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  top: 22%;
+  position: relative;
+}
+
+
+
+
+
+#left h2
+{
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  top: 20%;
+  position: relative;
+}
+#left button
+{
+ width: 40%;
+ height: 5%;
+border-radius: 50px;
+background-image: linear-gradient(to right, #5703be , #3c5ee6);
+color: #fff;
+text-align: center;
+margin-top: 12%;
+margin-left: 28%;
+cursor: pointer;
+}
+#left h3
+{
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 2%;
+}
+#left h6
+{
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  opacity: .8;
+  font-weight: 100;
+  margin-top: 19%;
+  
+} 
+#left #form
+{
+  position: absolute;
+  top: 10%;
+}
+ 
+input[type=text], input[type=password] {   
+  width: 100%;   
+  padding: 5px 20px;   
+  border: 2px solid green;   
+  box-sizing: border-box;
+  margin: 8px 15px;
+  
+}  
+#left #formd
+{
+  margin-top: 30%;
+  margin-left: 5%;
+  position: relative;
+  right: 5%;
+}
+
+
+
+/* @keyframes left {
+  0%{
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  100%{
+      transform: translate(0);
+      opacity: 1;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right
+{
+  height: 100%;
+  width: 50%;
+  background-image: url(https://i.pinimg.com/564x/7c/07/01/7c0701d161c9ea600b8c8a6a63cdcfa1.jpg);
+  animation-name: right;
+  animation-duration: 2s;
+}
+#right p
+{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 78%;
+  animation-name: para;
+  animation-duration: 5s;
+}
+#right #box
+{
+   height: 80px;
+   width: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10%;
+  margin-top: -16%;
+  animation-name: para;
+  animation-duration: 5s;
+
+
+}
+#right #box img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+#right  h2
+{
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 1%;
+  animation-name: para;
+  animation-duration: 5s;
+}
+
+/* 
+ @keyframes right {
+  0%{
+    transform: translateX(100%);
+    opacity: 0;
+}
+100%{
+    transform: translate(0);
+    opacity: 1;
+}
+}
+@keyframes para {
+  0%{
+    transform: translateX(100%);
+    opacity: 0;
+}
+100%{
+    transform: translate(0);
+    opacity: 1;
+}
+}  */
